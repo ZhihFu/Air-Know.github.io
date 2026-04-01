@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description"
+    content="Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval">
+  <meta property="og:title"
+    content="Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval" />
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG" />
+  <meta property="og:url" content="URL OF THE WEBSITE" />
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+
+  <meta name="twitter:title"
+    content="Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval">
+  <meta name="twitter:description"
+    content="Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card"
+    content="Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords"
+    content="Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More Research
+          </a>
+          <div class="navbar-dropdown research-dropdown">
+
+            <div class="navbar-item venue-label">AAAI</div>
+            <a class="navbar-item" href="https://lee-zixu.github.io/ENCODER.github.io/">
+              ENCODER (2025)
+            </a>
+            <a class="navbar-item" href="https://lee-zixu.github.io/HABIT.github.io/">
+              HABIT (2026)
+            </a>
+            <a class="navbar-item" href="https://zivchen-ty.github.io/INTENT.github.io/">
+              INTENT (2026)
+            </a>
+            <a class="navbar-item" href="https://lee-zixu.github.io/ReTrack.github.io/">
+              ReTrack (2026)
+            </a>
+
+            <hr class="navbar-divider">
+
+            <div class="navbar-item venue-label">ACM MM</div>
+            <a class="navbar-item" href="https://zivchen-ty.github.io/HUD.github.io/">
+              HUD (2025)
+            </a>
+            <a class="navbar-item" href="https://zivchen-ty.github.io/OFFSET.github.io/">
+              OFFSET (2025)
+            </a>
+
+            <hr class="navbar-divider">
+
+            <div class="navbar-item venue-label">CVPR</div>
+            <a class="navbar-item" href="https://lee-zixu.github.io/ConeSep.github.io/">
+              ConeSep (2026)
+            </a>
+
+            <hr class="navbar-divider">
+
+            <div class="navbar-item venue-label">ICASSP</div>
+            <a class="navbar-item" href="https://windlikeo.github.io/MEDIAN.github.io/">
+              MEDIAN (2025)
+            </a>
+            <a class="navbar-item" href="https://zhihfu.github.io/PAIR.github.io/">
+              PAIR (2025)
+            </a>
+
+            <hr class="navbar-divider">
+
+            <div class="navbar-item venue-label">TOMM</div>
+            <a class="navbar-item" href="https://lee-zixu.github.io/REFINE.github.io/">
+              REFINE (2026)
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">[CVPR'26] Air-Know: Arbiter-Calibrated
+              Knowledge-Internalizing Robust Network for Composed Image Retrieval</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <!--               <sup>*</sup> -->
+              <!-- <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Zhiwei Chen<sup>1</sup></a>,</span> -->
+              <span class="author-block" style="font-weight: 1000;">
+                <a href="https://zhihfu.github.io" target="_blank" class="author-link">Zhiheng Fu<sup>1</sup></a>,
+              </span>
+              <span class="author-block" style="font-weight: 1000;">
+                <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm" target="_blank"
+                  class="author-link">Yupeng
+                  Hu<sup>1*</sup></a>,
+              </span>
+              <span class="author-block" style="font-weight: 1000;">
+                <span>Qianyun Yang<sup>1</sup></span>,
+              </span>
+              <span class="author-block" style="font-weight: 1000;">
+                <span>Shiqi Zhang<sup>1</sup></span>,
+              </span>
+              <span class="author-block" style="font-weight: 1000;">
+                <a href="https://zivchen-ty.github.io" target="_blank" class="author-link">Zhiwei
+                  Chen<sup>1</sup></a>,
+              </span>
+              <span class="author-block" style="font-weight: 1000;">
+                <a href="https://lee-zixu.github.io" target="_blank" class="author-link">Zixu Li<sup>1</sup></a>,
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Shandong University
+              </span>
+              <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding author.</small></span>
+
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+
+                <span class="link-block">
+                  <a href="" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper Coming Soon</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>GitHub-Project Coming Soon</span>
+                  </a>
+                </span>
+
+
+
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <div class="item">
+              <div class="columns is-centered has-text-centered">
+                <div class="column is-fifths-fifths">
+                  <!-- Your image here -->
+                  <img src="static/images/Abstract.png" alt="MY ALT TEXT" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+  <!-- <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              []
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-three-fifths">
+          <h2 class="title is-3">NTC Noise Challenges and Our Decoupled Three-Phase Paradigm</h2>
+          <div class="item">
+            <div class="columns is-centered has-text-centered">
+              <div class="column is-four-fifths">
+                <!-- Your image here -->
+                <img src="static/images/Intro.png" alt="MY ALT TEXT" />
+                <h2 class="subtitle has-text-centered has-text-justified">
+                  (a) illustrates the semantic ambiguity of noise in NTC. (b) illustrates the vicious cycle of
+                  self-dependency caused by
+                  unreliable noise determination. (c) introduces our proposed “Expert-Proxy-Diversion” three-phase
+                  learning framework.
+                  Figure best viewed in color.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image carousel -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container  has-text-centered">
+        <h2 class="title is-3">Framework: ArbIteR calibrated Knowledge iNternalizing rObust netWork (Air-Know)</h2>
+        <!-- <div id="results-carousel" class="carousel results-carousel"> -->
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/Framework.png" alt="MY ALT TEXT" />
+          <h2 class="subtitle has-text-centered">
+            The proposed Air-Know consists of three primary modules: (a) External Prior Arbitration leverages an offline
+            multimodal
+            expert to generate reliable arbitration priors for CIR triplets, bypassing the unreliable small-loss
+            hypothesis. (b)
+            Expert-Knowledge Internalization transfers these priors into a lightweight proxy network, structurally
+            preventing the
+            memorization of ambiguous partial matches. Finally, (c) Dual-Stream Reconciliation dynamically integrates
+            the
+            internalized knowledge to provide robust online feedback, guiding the final representation learning. Figure
+            best viewed
+            in color.
+          </h2>
+        </div>
+        <hr>
+        <!-- </div> -->
+      </div>
+    </div>
+  </section>
+  <!-- End image carousel -->
+
+
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h2 class="title is-3">Experiment</h2>
+        <!-- <div id="results-carousel" class="carousel results-carousel"> -->
+        <!-- 主表区域 -->
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/MainTable-FashionIQ.png" alt="MY ALT TEXT" />
+          <h2 class="subtitle has-text-centered">
+            Performance comparison on the FashionIQ validation set in terms of R@K(%). The best and second-best results
+            are
+            highlighted in bold and underline, respectively.
+          </h2>
+        </div>
+        <br>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/MainTable-CIRR.png" alt="MY ALT TEXT" />
+          <h2 class="subtitle has-text-centered">
+            Performance comparison on the CIRR test set in terms of R@K(%) and Rsub@K(%). The best and second-best
+            results are
+            highlighted in bold and underline, respectively.
+          </h2>
+        </div>
+        <!-- 实验图表区域 -->
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-two-fifths">
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/ablation.png" alt="MY ALT TEXT" />
+              <h2 class="subtitle has-text-centered">
+                Ablation study on FashionIQ and CIRR datasets. Best and sub-optimal results are highlighted in bold and
+                underline.
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-three-fifths">
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/Sensitivity.png" alt="MY ALT TEXT" />
+              <h2 class="subtitle has-text-centered">
+                Sensitivity to the hyperparameters (a) <i>p</i> and (b) <i>λ</i>.
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-three-fifths">
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/Case.png" alt="MY ALT TEXT" />
+              <h2 class="subtitle has-text-centered">
+                Case Study on (a) CIRR and (b) FashionIQ.
+              </h2>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- 多栏，自行需要 -->
+        <!-- <div class="columns is-centered has-text-centered">
+
+          <div class="column is-6">
+            <img src="static/images/Attention_Fiq_Shoes.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Attention visualization on LRQ of ENCODER on FashionIQ and Shoes dataset. Three different examples showed
+              that different LRQ queries focus on different entity-action.
+            </h2>
+          </div>
+          <div class="column is-6">
+            <img src="static/images/Attention_cirr_200k.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Attention visualization on LRQ of ENCODER on CIRR and Fashion200K dataset. Three different examples showed
+              that different LRQ queries focus on different entity-action.Shoes
+            </h2>
+          </div>
+        </div> -->
+
+        <!-- </div> -->
+      </div>
+    </div>
+  </section>
+
+
+  <!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+        [Paper BibTex]
+      </code></pre>
+    </div>
+  </section>
+  <!--End BibTex citation -->
+  <!-- volume={x},
+number={x},
+pages={x--x}, -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-1">
+          <a href="https://clustrmaps.com/site/1c9ln" title="ClustrMaps"><img
+              src="//www.clustrmaps.com/map_v2.png?d=lIX7fKPuRzv7EIayy3VriD-PDgVG2RYFwPh-dO37rwQ&cl=ffffff" /></a>
+        </div>
+        <div class="column is-8">
+          <div class="content">
+
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the source code of this website, we just ask that you link back to this page in the
+              footer. <br> This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Statcounter tracking code -->
+
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+  <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
